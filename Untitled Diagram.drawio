@@ -97,8 +97,14 @@
         <mxCell id="ruruEw59U3fdtxcspalk-2" value="INPUT" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-3150" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ruruEw59U3fdtxcspalk-6" target="ruruEw59U3fdtxcspalk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ruruEw59U3fdtxcspalk-6" value="Change text to lowercase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-3010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-7" value="remove all alphanumeric characters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-2870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
