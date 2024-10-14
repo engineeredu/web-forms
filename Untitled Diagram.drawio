@@ -106,6 +106,99 @@
         <mxCell id="ruruEw59U3fdtxcspalk-7" value="remove all alphanumeric characters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-2870" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ruruEw59U3fdtxcspalk-7" target="ruruEw59U3fdtxcspalk-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-2690" as="sourcePoint" />
+            <mxPoint x="280" y="-2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-11" value="reverse the characters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-2750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ruruEw59U3fdtxcspalk-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-2690" as="sourcePoint" />
+            <mxPoint x="280" y="-2650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="ruruEw59U3fdtxcspalk-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="-2590" as="sourcePoint" />
+            <mxPoint x="280" y="-2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-15" value="output text is a palindrome" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-2550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ruruEw59U3fdtxcspalk-15" target="ruruEw59U3fdtxcspalk-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="-2430" as="sourcePoint" />
+            <mxPoint x="280" y="-2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-17" value="STOP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-20" value="check if reversed characters equal the text input" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-2680" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="-2620" as="sourcePoint" />
+            <mxPoint x="130" y="-2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ruruEw59U3fdtxcspalk-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="-2620" as="sourcePoint" />
+            <mxPoint x="216.42857142857144" y="-2612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="-2620" as="sourcePoint" />
+            <mxPoint x="130" y="-2620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ruruEw59U3fdtxcspalk-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="-2520" as="sourcePoint" />
+            <mxPoint x="320" y="-2620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-32" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-2652" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-33" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ruruEw59U3fdtxcspalk-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="-2620" as="sourcePoint" />
+            <mxPoint x="320" y="-2620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="-2620" as="sourcePoint" />
+            <mxPoint x="510" y="-2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-35" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-2652" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-36" value="output text isnt a palindrome" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ruruEw59U3fdtxcspalk-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="-2440" as="sourcePoint" />
+            <mxPoint x="520" y="-2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ruruEw59U3fdtxcspalk-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ruruEw59U3fdtxcspalk-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="-2440" as="sourcePoint" />
+            <mxPoint x="440" y="-2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
